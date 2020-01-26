@@ -1,0 +1,32 @@
+@font-face {
+	font-family: montserrat-regular;
+	src: "Montserrat-Regular.ttf";
+}
+@font-face {
+	font-family: montserrat-semibold;
+	src: "Montserrat-Semibold.ttf";
+}
+body {
+	font-family: montserrat-regular, Helvetica, Arial, sans-serif;
+}
+.fondoAzul {
+	background-color: #E9EFF2;
+}
+.fondoAzulClaro {
+	background-color: #EDF0F2;
+}
+.fondoNaranja{
+	background-color: #ffefcc;
+}
+.fondoVerde {
+	background-color: #daf1e4;
+}
+.fondoGris {
+	background-color: #f2f2f2;
+}
+.fondoBlanco {
+	background-color: white;
+}
+footer {
+	font-size: 0.8em;
+}

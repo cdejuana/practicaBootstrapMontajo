@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<!-- Configuración Mobile First -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Montajo - Nosotros</title>
+	<!-- Librería CSS de Bootstrap minificada desde CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="custom.css">
+	<script src="https://kit.fontawesome.com/1ed2dc7886.js" crossorigin="anonymous"></script>
+</head>
+<body class="fondoAzul">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light fondoAzul">
+			<a class="navbar-brand" href="index.html">
+				<img class="d-none d-md-block" src="img/logo-descriptor-lg.png" width="200" height="auto" alt="Logotipo Montajo">
+				<img class="d-none d-sm-block d-md-none" src="img/logo-sm.png" width="200" height="auto" alt="Logotipo Montajo">
+				<img class="d-block d-sm-none" src="img/logo-sm.png" width="150" height="auto" alt="Logotipo Montajo">
+			</a>
+			<!-- hacer referencia a la web de bootstrap -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraNavegacion" aria-controls="barraNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="barraNavegacion">
+				<div class="navbar-nav mr-auto">
+					<a href="nosotros.html" class="nav-item nav-link mx-lg-1 mx-xl-4 active">Nosotros</a>
+					<div class="nav-item dropdown mx-lg-1 mx-xl-4">
+						<a href="#" class="nav-link dropdown-toggle" id="menuDesplegable" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Actividades
+						</a>
+						<div class="dropdown-menu fondoAzul" aria-labelledby="menuDesplegable">
+							<a href="piraguismo.html" class="dropdown-item active">Piragüismo</a>
+							<a href="#" class="dropdown-item">Mountain Bike</a>
+							<a href="#" class="dropdown-item">Espeleología</a>
+							<a href="#" class="dropdown-item">Senderismo</a>
+							<a href="#" class="dropdown-item">Escalada</a>
+							<a href="#" class="dropdown-item">Multiaventura</a>
+						</div>
+					</div>
+					<a href="reservas.html" class="nav-item nav-link mx-lg-1 mx-xl-4">Reservas</a>
+					<a href="contacto.html" class="nav-item nav-link mx-lg-1 mx-xl-4">Contacto</a>
+				</div>
+				<form class="form-inline">
+					<input class="form-control form-control-sm" type="search" placeholder="Buscar" aria-label="Buscar">
+					<button class="btn btn-sm btn-outline-secondary my-2 mx-sm-2 my-sm-0" type="submit">Buscar</button>
+				</form>
+			</div>
+		</nav>
+	</div>
+	<main class="container">
+		<div class="jumbotron rounded my-2 fondoBlanco">
+			<h3 class="text-success">Nuestro equipo</h3>
+				<div class="row">
+					<div class="col-12 col-lg-5 mt-2">
+						<p>Nuestro equipo de monitores, guías e instructores está formado por profesionales especializados en cada actividad deportiva y en la conducción de grupos. Montajo también se encarga de la formación de monitores de turismo activo a través de cursos de iniciación y perfeccionamiento de cada una de las actividades, conducción de grupos en el entorno natural, seguridad y rescate, etc., combinando su formación profesional con nuestra amplia experiencia.</p>
+					</div>
+					<div class="col-12 col-lg-7 mt-2">
+						<img class="img-fluid rounded" src="img/equipo-montajo.jpg" alt="Equipo Montajo">
+					</div>
+				</div>
+			<div class="rounded mt-5 p-2 p-md-3 p-lg-4 p-xl-5 fondoNaranja">
+				<h3 class="text-secondary">Nuestras instalaciones</h3>
+				<p class="mt-3 mb-3">Nuestro centro está dotado con unas instalaciones completamente equipadas: Salón-comedor, almacén de materiales y equipación deportiva, vestuarios, baños y taquillas.</p>
+				<div class="row">
+					<!--MODAL 1-->
+					<div class="modal fade" id="modalVirgen" tabindex="-1" role="dialog" aria-labelledby="modalVirgen" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <img class="img-fluid" src="img/instalaciones-1.jpg" alt="Instalaciones Montajo">
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!--CARD 1-->
+			 		<div class=" col-12 col-md-6 col-lg-4 mb-3">
+			 			<!--ENLACE Y MODAL 1-->
+			 			<a href="#" data-toggle="modal" data-target="#modalVirgen" class="d-none d-md-block">
+					 		<div class="card">						 		
+							  <img class="card-img-top" src="img/instalaciones-1.jpg" alt="Instalaciones Montajo">							  
+							</div>
+						</a>
+						<!--SOLO IMAGEN 1-->
+						<div class="card d-sm-block d-md-none">						 		
+						  <img class="card-img-top" src="img/instalaciones-1.jpg" alt="Instalaciones Montajo">						  
+						</div>
+			    	</div>
+			    	<!--MODAL 2-->
+					<div class="modal fade" id="modalPenalen" tabindex="-1" role="dialog" aria-labelledby="modalPenalen" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <img class="img-fluid" src="img/instalaciones-2.jpg" alt="Material Montajo">
+					      </div>
+					    </div>
+					  </div>
+					</div>
+			    	<!--CARD 2-->
+			    	<div class=" col-12 col-md-6 col-lg-4 mb-3">
+			    		<!--ENLACE Y MODAL 2-->
+			    		<a href="#" data-toggle="modal" data-target="#modalPenalen" class="d-none d-md-block">
+					    	<div class="card">						    	
+							  <img class="card-img-top" src="img/instalaciones-2.jpg" alt="Material Montajo">							  
+							</div>
+						</a>
+						<!--SOLO IMAGEN 2-->
+						<div class="card d-sm-block d-md-none">
+							  <img class="card-img-top" src="img/instalaciones-2.jpg" alt="Material Montajo">							  
+						</div>
+			    	</div>
+			    	<!--MODAL 3-->
+					<div class="modal fade" id="modalPoveda" tabindex="-1" role="dialog" aria-labelledby="modalPoveda" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <img class="img-fluid" src="img/instalaciones-3.jpg" alt="Piragüas Montajo">
+					      </div>
+					    </div>
+					  </div>
+					</div>
+			    	<!--CARD 3-->
+			    	<div class=" col-12 col-md-6 col-lg-4 mb-3">
+			    		<!--ENLACE Y MODAL 3-->
+			    		<a href="#" data-toggle="modal" data-target="#modalPoveda" class="d-none d-md-block">
+					    	<div class="card">						    	
+							  <img class="card-img-top" src="img/instalaciones-3.jpg" alt="Piragüas Montajo">							  
+							</div>
+						</a>
+						<!--SOLO IMAGEN 3-->
+						<div class="card d-sm-block d-md-none">
+							  <img class="card-img-top" src="img/instalaciones-3.jpg" alt="Piragüas Montajo">							  
+						</div>
+					</div>
+					<!--MODAL 4-->
+					<div class="modal fade" id="modalMirador" tabindex="-1" role="dialog" aria-labelledby="modalMirador" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <img class="img-fluid" src="img/instalaciones-4.jpg" alt="Material Montajo">
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!--CARD 4-->
+					<div class=" col-12 col-md-6 col-lg-4 mb-3">
+						<!--ENLACE Y MODAL 4-->
+						<a href="#" data-toggle="modal" data-target="#modalMirador" class="d-none d-md-block">
+							<div class="card">								
+							  <img class="card-img-top" src="img/instalaciones-4.jpg" alt="Material Montajo">							  
+							</div>
+						</a>
+						<!--SOLO IMAGEN 4-->
+						<div class="card d-sm-block d-md-none">
+							  <img class="card-img-top" src="img/instalaciones-4.jpg" alt="Material Montajo">							  
+						</div>
+					</div>
+					<!--MODAL 5-->
+					<div class="modal fade" id="modalLaguna" tabindex="-1" role="dialog" aria-labelledby="modalLaguna" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <img class="img-fluid" src="img/instalaciones-5.jpg" alt="Taquillas Montajo">
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!--CARD 5-->
+					<div class=" col-12 col-md-6 col-lg-4 mb-3">
+						<!--ENLACE Y MODAL 5-->
+						<a href="#" data-toggle="modal" data-target="#modalLaguna" class="d-none d-md-block">
+							<div class="card">								
+							  <img class="card-img-top" src="img/instalaciones-5.jpg" alt="Taquillas Montajo">							  
+							</div>
+						</a>
+						<!--SOLO IMAGEN 5-->
+						<div class="card d-sm-block d-md-none">
+							  <img class="card-img-top" src="img/instalaciones-5.jpg" alt="Taquillas Montajo">							  
+						</div>
+					</div>
+					<!--MODAL 6-->
+					<div class="modal fade" id="modalZaorejas" tabindex="-1" role="dialog" aria-labelledby="modalZaorejas" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <img class="img-fluid" src="img/instalaciones-6.jpg" alt="Vestuarios Montajo">
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!--CARD 6-->
+					<div class=" col-12 col-md-6 col-lg-4 mb-3">
+						<!--ENLACE Y MODAL 6-->
+						<a href="#" data-toggle="modal" data-target="#modalZaorejas" class="d-none d-md-block">
+							<div class="card">								
+							  <img class="card-img-top" src="img/instalaciones-6.jpg" alt="Vestuarios Montajo">							  
+							</div>
+						</a>
+						<!--SOLO IMAGEN 6-->
+						<div class="card d-sm-block d-md-none">
+							  <img class="card-img-top" src="img/instalaciones-6.jpg" alt="Vestuarios Montajo">							  
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</main>
+	<footer class="container mt-5 mb-2">
+		<div class="row">
+			<p class="text-center text-muted col-12">Montajo está certificada por la Junta de Comunidades de Castilla-La Mancha como Empresa de Turismo Activo, lo que garantiza la profesionalidad de nuestro servicio.
+			</p>
+		</div>
+		<hr class="my-2">
+		<div class="row">
+			<p class="text-center text-md-left mr-auto text-muted col-12 col-md-9">Copyright © 2019 Montajo. Todos los derechos reservados.</p>
+			<div class="text-center text-md-right ml-auto my-3 mt-md-0 text-muted col-12 col-md-3">
+				<a href="#"><span class="fab fa-facebook-square fa-2x text-secondary mr-3"></span></a>
+				<a href="#"><span class="fab fa-twitter-square fa-2x text-secondary mr-3"></span></a>
+				<a href="#"><span class="fab fa-instagram fa-2x text-secondary mr-3"></span></a>
+				<a href="#"><span class="fab fa-youtube-square fa-2x text-secondary"></span></a>
+			</div>
+		</div>
+	</footer>
+	<!-- Librería JQuery para Bootsstrap minificada desde CDN -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Librería Popper.js para Bootsstrap minificada desde CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<!-- Librería de plugins JavaScript de Bootstrap minificada desde CDN -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
